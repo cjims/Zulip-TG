@@ -4,6 +4,7 @@ import time
 
 client = zulip.Client(config_file="zuliprc")  # TG bot 的設定
 
+# TG bot的設定
 TELEGRAM_BOT_TOKEN = ''
 TELEGRAM_CHAT_ID = ''
 
