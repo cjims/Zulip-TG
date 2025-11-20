@@ -22,7 +22,7 @@ nssm set Zulip-TG_Service AppParameters "C:\app\zutest.py"
 nssm set Zulip-TG_Service AppDirectory "C:\app"
 ```
 
-### 安裝、啟動
+### 安裝、啟動服務
 ```bash
 nssm install Zulip-TG_Service
 nssm start Zulip-TG_Service
