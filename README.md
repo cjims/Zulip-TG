@@ -10,7 +10,12 @@ Zulip接收資訊後，即時在Telegram顯示
 
 因為會放到windows底下的service背景執行，所以需下載nssm服務管理員(Non-Sucking Service Manager)
 
-### 設定環境
+## 環境
+### 安裝
+```bash
+pip install -r requirements.txt
+```
+### 設定
 ```bash
 nssm set Zulip-TG_Service Application "C:\Users\AppData\Local\Programs\Python\Python312\python.exe"
 nssm set Zulip-TG_Service AppParameters "C:\app\zutest.py"
